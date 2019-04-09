@@ -1,0 +1,77 @@
+#app{
+	.nav-tabs {
+		.nav-item{
+			a.nav-link{
+				color: $tab-link-color;
+				&.active{
+					color: $tab-active-color;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	.tab-front-k{
+		padding-top: 30px;
+		
+		.list-row-k{
+			border-bottom: 1px solid #ddd;
+			&.row-names{
+				font-weight: 500;
+				font-style: italic;
+				background: #fafafa
+			}
+			@media screen and (max-width: 575px){
+					flex-wrap:wrap;
+				}
+			.part-data{
+				width: 85%;
+				.cell{
+					.label-mobile{
+						font-size: 13px;
+					}
+					&.cell-25{
+						width:25%;
+						
+						@media screen and (max-width: 575px){
+							width:50%;
+						}
+					}
+					.typetext{
+						font-size:13px;
+					}
+				}
+				@media screen and (max-width: 575px){
+					width: 100%;
+					text-align: center;
+				
+				}
+			}
+			.part-actions{
+				width: 15%;
+					a.fa-k{
+						color: $link-color;
+						font-size: 20px	
+					}
+				@media screen and (max-width: 575px){
+					width: 100%;
+					text-align: center;
+				
+				}
+			}
+		}
+		.data-box{
+			padding: 10px 0px;
+			span{
+				display: block;
+				font-size: 14px;
+				font-style: italic;
+				color: $menu-bg-color;
+			}
+		}
+		.icon-box{
+			text-align: center;
+			color: $menu-bg-color;
+			font-size:130px;
+		}
+	}
+}

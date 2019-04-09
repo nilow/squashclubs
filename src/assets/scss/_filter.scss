@@ -1,0 +1,42 @@
+#app{
+	.filter-column{
+		.btn-k-new{
+			width: 100%;
+			border-radius: 0px;
+			border: none;
+			padding: 10px 0px;
+			background: lighten($link-color,5%);
+			margin-bottom: 30px;
+			&:hover{
+				background: darken($link-color,5%);
+			}
+			&:focus{
+				box-shadow: none;
+			}
+		}
+		form{
+			.btn-k{
+				width: 100%;
+				border-radius: 0px;
+				border: none;
+				padding: 10px 0px;
+				background: lighten($menu-bg-color,10%);
+				&:hover{
+					background: lighten($menu-bg-color,5%);
+				}
+				&:focus{
+					box-shadow: none;
+				}
+				&.btn-filterorclear{
+					width: 49.5%;
+					display:inline-block
+				}
+			}
+			.select-k, .input-k{
+				border-radius: 0px;
+				box-shadow: none;
+
+			}
+		}
+	}
+}

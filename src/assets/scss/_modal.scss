@@ -1,0 +1,20 @@
+#app{
+	.addmodal-k{
+		.modal-dialog{
+		max-width: 800px;
+			.modal-content{
+				border-radius: 0px;
+				.row-modal{
+					div.form-group{
+						width: 49.5%;
+						.btn-upload{
+								border-radius: 0px;
+								background: $menu-bg-color;
+								border-color: $menu-bg-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+body, html{
+	height: auto;
+}
+body{
+	background: #fafafa;
+	font-family: 'Roboto', sans-serif;
+	#app{
+	font-weight:300;
+	min-height: 100%;
+
+		.container-k{
+			background: rgba(255,255,255,0.95);
+			min-height:100vh;
+			border:1px solid #eee
+		}
+	}
+}
